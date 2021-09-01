@@ -1,0 +1,1330 @@
+
+.top-sold li{
+   list-style-position:inside;
+  list-style-type:decimal-leading-zero; 
+  white-space: nowrap; 
+ text-overflow: ellipsis;
+  overflow: hidden; 
+  color: black;
+  font-weight: 510;
+
+ 
+}
+.top-sold li:hover {
+  overflow: visible;
+  z-index: 9999;
+  color: #000000;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+
+
+
+.top-view li{
+   list-style-position:inside;
+  list-style-type:decimal-leading-zero; 
+  white-space: nowrap; 
+ text-overflow: ellipsis;
+  overflow: hidden; 
+  color: black;
+  font-weight: 510;
+
+ 
+}
+.top-view li:hover {
+  overflow: visible;
+  z-index: 9999;
+  color: #000000;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+
+
+.select {
+  /* Reset */
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  border: 0;
+  outline: 0;
+  font: inherit;
+  /* Personalize */
+  width: 20em;
+  height: 3em;
+  padding: 0 4em 0 1em;
+  background: url(https://upload.wikimedia.org/wikipedia/commons/9/9d/Caret_down_font_awesome_whitevariation.svg) no-repeat right 0.8em center/1.4em, linear-gradient(to left, rgb(79 79 79 / 30%) 3em, rgba(255, 255, 255, 0.2) 3em);
+ 
+  border-radius: 0.25em;
+  box-shadow: 0 0 1em 0 rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  /* <option> colors */
+  /* Remove focus outline */
+  /* Remove IE arrow */
+}
+.select option {
+  color: inherit;
+
+}
+.select:focus {
+  outline: none;
+}
+.select::-ms-expand {
+  display: none;
+}
+
+.check-info{
+  background-color: antiquewhite;
+}
+
+
+/*.threesixty .threesixty_images img.previous-image {
+  visibility: hidden;
+}
+.threesixty .threesixty_images img.current-image {
+  visibility: visible;
+}
+.threesixty_images img.previous-image { z-index: -999; }
+
+*/
+.span-red{
+  color: red;
+}
+
+.label-normal{
+  font-weight: 400 !important;
+  font-size: 20px;
+}
+.label-bold{
+  font-weight: bolder !important;
+}
+.error1,.error2-check{
+   -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  -moz-box-shadow: 0 0 0 transparent;
+  -webkit-box-shadow: 0 0 0 transparent;
+  box-shadow: 0 0 0 transparent;
+  position: absolute;
+  left: 146px;
+    margin-top: -5px;
+    padding: 0 10px;
+    height: 39px;
+    display: block;
+    color: #ffffff;
+    background: #e62163;
+    border: 0;
+    font: 14px Corbel, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", "Bitstream Vera Sans", "Liberation Sans", Verdana, "Verdana Ref", sans-serif;
+    line-height: 39px;
+    white-space: nowrap;
+    z-index: 9;
+
+}
+.error3{
+   -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  -moz-box-shadow: 0 0 0 transparent;
+  -webkit-box-shadow: 0 0 0 transparent;
+  box-shadow: 0 0 0 transparent;
+  position: absolute;
+    left: 140px;
+    margin-top: -10px;
+  padding: 0 10px;
+  z-index: 999;
+  height: 39px;
+  display: block;
+  color: #ffffff;
+  background: #e62163;
+  border: 0;
+  font: 14px Corbel, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", "Bitstream Vera Sans", "Liberation Sans", Verdana, "Verdana Ref", sans-serif;
+  line-height: 39px;
+  white-space: nowrap;
+  z-index: 9;
+
+}
+.error4{
+   -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  -moz-box-shadow: 0 0 0 transparent;
+  -webkit-box-shadow: 0 0 0 transparent;
+  box-shadow: 0 0 0 transparent;
+  position: absolute;
+    left: 142px;
+    margin-top: -10px;
+  padding: 0 10px;
+  z-index: 999;
+  height: 39px;
+  display: block;
+  color: #ffffff;
+  background: #e62163;
+  border: 0;
+  font: 14px Corbel, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", "Bitstream Vera Sans", "Liberation Sans", Verdana, "Verdana Ref", sans-serif;
+  line-height: 39px;
+  white-space: nowrap;
+  z-index: 9;
+
+}
+.error5{
+   -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  -moz-box-shadow: 0 0 0 transparent;
+  -webkit-box-shadow: 0 0 0 transparent;
+  box-shadow: 0 0 0 transparent;
+  position: absolute;
+left: 201px;
+    margin-top: -11px;
+  padding: 0 10px;
+  z-index: 999;
+  height: 39px;
+  display: block;
+  color: #ffffff;
+  background: #e62163;
+  border: 0;
+  font: 14px Corbel, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", "Bitstream Vera Sans", "Liberation Sans", Verdana, "Verdana Ref", sans-serif;
+  line-height: 39px;
+  white-space: nowrap;
+  z-index: 9;
+
+}
+.error4-custom{
+   -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  -moz-box-shadow: 0 0 0 transparent;
+  -webkit-box-shadow: 0 0 0 transparent;
+  box-shadow: 0 0 0 transparent;
+  position: absolute;
+    left: 267px;
+    margin-top: -104px;
+  padding: 0 10px;
+  z-index: 999;
+  height: 39px;
+  display: block;
+  color: #ffffff;
+  background: #e62163;
+  border: 0;
+  font: 14px Corbel, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", "Bitstream Vera Sans", "Liberation Sans", Verdana, "Verdana Ref", sans-serif;
+  line-height: 39px;
+  white-space: nowrap;
+  z-index: 9;
+
+}
+.error1-custom{
+     -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  -moz-box-shadow: 0 0 0 transparent;
+  -webkit-box-shadow: 0 0 0 transparent;
+  box-shadow: 0 0 0 transparent;
+  position: absolute;
+  left: 181px;
+    margin-top: -5px;
+  padding: 0 10px;
+  height: 39px;
+  z-index: 999;
+  display: block;
+  color: #ffffff;
+  background: #e62163;
+  border: 0;
+  font: 14px Corbel, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", "Bitstream Vera Sans", "Liberation Sans", Verdana, "Verdana Ref", sans-serif;
+  line-height: 39px;
+  white-space: nowrap;
+  z-index: 9;
+}
+.error1-custom2{
+     -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  -moz-box-shadow: 0 0 0 transparent;
+  -webkit-box-shadow: 0 0 0 transparent;
+  box-shadow: 0 0 0 transparent;
+  position: absolute;
+left: 225px;
+    margin-top: -138px;
+  padding: 0 10px;
+  height: 39px;
+  z-index: 999;
+  display: block;
+  color: #ffffff;
+  background: #e62163;
+  border: 0;
+  font: 14px Corbel, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", "Bitstream Vera Sans", "Liberation Sans", Verdana, "Verdana Ref", sans-serif;
+  line-height: 39px;
+  white-space: nowrap;
+  z-index: 9;
+}
+.error1-avatar{
+   -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  -moz-box-shadow: 0 0 0 transparent;
+  -webkit-box-shadow: 0 0 0 transparent;
+  box-shadow: 0 0 0 transparent;
+  position: absolute;
+  left: 260px;
+    margin-top: -120px;
+
+  padding: 0 10px;
+  z-index: 999;
+  height: 39px;
+  display: block;
+  color: #ffffff;
+  background: #e62163;
+  border: 0;
+  font: 14px Corbel, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", "Bitstream Vera Sans", "Liberation Sans", Verdana, "Verdana Ref", sans-serif;
+  line-height: 39px;
+  white-space: nowrap;
+
+}
+
+
+.error1:before, .error3:before ,.error1-custom:before,.error1-custom2:before,.error4:before,.error4-custom:before,.error5:before{
+    width: 0;
+  height: 0;
+  left: -8px;
+  top: 14px;
+  content: '';
+  position: absolute;
+  border-top: 6px solid transparent;
+  border-right: 8px solid #e62163;
+}
+
+.error-log{
+    margin: 5px 5px 5px 0;
+  font-size: 19px;
+  position: relative;
+  bottom: -2px;
+}
+
+.question-log {
+  margin: 5px 1px 5px 0;
+  font-size: 15px;
+  position: relative;
+  bottom: -2px;
+  }
+
+
+.error1-avatar {
+  position: relative;
+  left: 0 !important;
+  margin-top: 24px;
+  top: -11px;
+}
+
+.error1-avatar:before {
+  width: 0;
+  height: 0;
+  left: 14px;
+  top: -8px;
+  content: '';
+  position: absolute;
+  border-left: 6px solid transparent;
+  border-bottom: 8px solid #e62163;
+  border-right: 6px solid transparent;
+  }
+
+
+.error2-check{
+ position: relative;
+    left: 0 !important;
+    top: 5px;
+}
+.error2-check:before {
+  width: 0;
+  height: 0;
+      left: 576px;
+    top: -8px;
+  content: '';
+  position: absolute;
+  border-left: 6px solid transparent;
+  border-bottom: 8px solid #e62163;
+
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* RESPONSIVE */
+
+/* moves error logs in tablet/smaller screens */
+
+@media (max-width:1000px){
+
+/*brings inputs down in size */
+
+
+  /*brings errors in */
+  .error1 {
+  left: 400px;
+}
+
+
+
+
+}
+
+
+@media (max-width:1070px){
+/*mobile phone: uncollapse all fields: remove progress bar*/
+
+
+
+
+/*move error logs */
+.error1,.error3,.error2-custom,.error1-custom2{
+  position: relative;
+  left: 0 !important;
+  
+    margin-top: 5px;
+  top: -11px;
+}
+.error4{
+  position: relative;
+  left: 0 !important;
+  margin-top: -4px;
+    top: 12px;
+}
+.error5{
+  position: relative;
+  left: 0 !important;
+  margin-top: -4px;
+    top: 12px;
+}
+.error4-custom{
+  position: relative;
+  left: 0 !important;
+  
+    margin-top: 5px;
+  top: -11px;
+}
+.error1-custom{
+  position: relative;
+  left: 0 !important;
+  top: -11px;
+}
+
+.error1:before,.error3:before,.error2-custom:before,.error4:before,.error4-custom:before,.error5:before{
+  width: 0;
+  height: 0;
+  left: 14px;
+  top: -14px;
+  content: '';
+  position: absolute;
+  border-left: 6px solid transparent;
+  border-bottom: 8px solid #e62163;
+  border-right: 6px solid transparent;
+  }
+  
+  
+  .error1-custom:before,.error1-custom2:before {
+  width: 0;
+  height: 0;
+  left: 14px;
+  top: -14px;
+  content: '';
+  position: absolute;
+  border-left: 6px solid transparent;
+  border-bottom: 8px solid #e62163;
+  border-right: 6px solid transparent;
+  }
+
+
+
+
+}
+
+
+
+
+
+/*======================================
+   Start Shopping Cart CSS
+========================================*/
+.table.shopping-summery {
+  background: #fff;
+}
+.shopping-cart {
+  background: #f6f6f6;
+  padding: 50px 0;
+}
+.shopping-summery thead .main-hading{
+  padding:0px 50px;
+}
+.shopping-summery thead {
+  background: #F7941D;
+  color: #fff;
+}
+.shopping-summery thead tr th {
+  border: none;
+  font-weight: 600;
+  color: #fff;
+  text-align: center;
+}
+.shopping-summery tbody tr {
+  border-bottom: 1px solid #F7941D;
+  margin-top: 20px;
+}
+.shopping-summery tbody tr img {
+  border-radius: 0;
+  width: 80px;
+  height: 80px;
+}
+.shopping-summery tbody tr:last-child{
+  border:none;
+}
+.shopping-summery tbody .product-name a {
+  font-weight: 600;
+  color: #282828;
+  font-weight: 600;
+  font-size: 17px;
+
+}
+.shopping-cart .table p {
+  font-size: 14px;
+  color: #666;
+  text-align: center;
+  margin:0 ;
+}
+.shopping-summery tbody .product-name a:hover{
+  color:#F7941D;
+}
+.shopping-summery tbody .product img {
+  max-width: 70px;
+  border-radius: 100%;
+  max-height: 65px;
+  border: 1px solid #e6e6e6;
+  padding: 4px;
+}
+.shopping-summery tbody .product:hover img{
+  border-color:#F7941D;
+  -webkit-transform:rotate(360deg);
+  -moz-transform:rotate(360deg);
+  transform:rotate(360deg);
+}
+
+ .table .remove-icon{
+  font-size:16px;
+}
+ .table td {
+  vertical-align: middle;
+  border-top: 1px solid #eee;
+  padding: 30px;
+}
+.shopping-summery tbody .price {
+  text-align: center;
+}
+.shopping-summery tbody .price span{}
+ tbody .qty .input-group {
+  width: 175px;
+  display: inline-block;
+}
+
+
+ .qty .button .btn:hover{
+  color:#F7941D;
+}
+ .qty .input-number {
+  border: 1px solid #eceded;
+  width: 100%;
+  text-align: center;
+  height: 47px;
+  border-radius:0;
+  overflow: hidden;
+  padding: 0px 45px;
+}
+.shopping-summery tbody .total-amount {
+  text-align: center;
+}
+.shopping-summery tbody .total-amount span{}
+.shopping-summery tbody .action {
+  text-align: center;
+}
+.shopping-summery tbody .action a:hover{
+  color:#F7941D;
+}
+.shopping-cart .total-amount{
+  margin-top:50px;
+}
+.shopping-cart .total-amount .left{}
+.shopping-cart .total-amount .left .coupon{}
+.shopping-cart .total-amount .left .coupon form{}
+.shopping-cart .total-amount .left .coupon input {
+  width: 220px;
+  display: inline-block;
+  height: 48px;
+  color: #333;
+  padding: 0px 20px;
+  border: none;
+  box-shadow: 0px 0px 5px #0000000a;
+}
+.shopping-cart .total-amount .left .coupon .btn {
+  display: inline-block;
+  height: 48px;
+  border: navajowhite;
+  margin-left: 4px;
+  background: transparent;
+  color: #333;
+  background: #fff;
+  box-shadow: 0px 0px 5px #00000012;
+}
+.shopping-cart .total-amount .left .coupon  .btn:hover{
+  background:#fff;
+  color:#F7941D;
+}
+.shopping-cart .total-amount .left label{
+  font-size:22px;
+  font-weight:500;
+  color:#333;
+}
+.shopping-cart .total-amount .left .checkbox {
+  text-align: left;
+  margin: 0;
+  margin-top: 20px;
+}
+.shopping-cart .total-amount .left .checkbox label {
+  font-size: 15px;
+  font-weight: 400;
+  color: #333;
+  position: relative;
+  padding-left: 30px;
+}
+.shopping-cart .total-amount .left .checkbox label:hover{
+  cursor:pointer;
+}
+.shopping-cart .total-amount .left .checkbox label input{
+  display:none;
+}
+.shopping-cart .total-amount .left .checkbox label::before {
+  position: absolute;
+  content: "";
+  left: 0;
+  top: 4px;
+  width: 16px;
+  height: 16px;
+  border: 1px solid #555555;
+  border-radius: 0px;
+}
+.shopping-cart .total-amount .left .checkbox label::after {
+  position: absolute;
+  content: "\f00c";
+  font-family: "Fontawesome";
+  left: 0;
+  top: 0;
+  width: 22px;
+  height: 22px;
+  line-height: 24px;
+  left: 3px;
+  top: 0px;
+  opacity: 0;
+  visibility: hidden;
+  transform: scale(0);
+  -webkit-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+  display: block;
+  font-size: 11px;
+}
+.shopping-cart .total-amount .left .checkbox label.checked::after{
+  opacity:1;
+  visibility:visible;
+  transform:scale(1);
+}
+.shopping-cart .total-amount .right {
+  padding-left: 100px;
+}
+.shopping-cart .total-amount .right ul{
+  
+}
+.shopping-cart .total-amount .right ul li {
+  font-size: 15px;
+  font-weight: 400;
+  color: #333;
+  margin-bottom: 12px;
+}
+.shopping-cart .total-amount .right ul li.last {
+  padding-top: 12px;
+  border-top: 1px solid #c8c8c8;
+  color: red;
+  font-size: 15px;
+  font-weight: 500;
+  font-weight: bold;
+}
+.shopping-cart .total-amount .right ul li span{
+  display:inline-block;
+  float:right;
+}
+.shopping-cart .total-amount .left .button4 .btn {
+  text-align: center;
+  border-radius: 5px;
+  width: 40%;
+  margin: 10px;
+  height: 46px;
+  line-height: 18px;
+  font-size: 13px;
+  background: #333;
+  
+}
+.shopping-cart .total-amount .right .button5 .btn {
+  text-align: center;
+  border-radius: height*0.5;
+  width: 100%;
+  margin: 10px;
+  height: 46px;
+  line-height: 18px;
+  font-size: 13px;
+  color: #fff;
+}
+/*======================================
+   End Shopping Cart CSS
+========================================*/
+
+
+
+
+
+
+.table-action a{
+  color: #404040;
+}
+.table-action a:hover {
+  color: red;
+}
+.de-icon{
+	position: relative;
+	top: -25px;
+
+}
+.insert{
+	margin: 10px;
+}
+.custom-file-input{
+	margin: 20px;
+}
+#img{
+	height: 90px;
+	width: 90px;
+	margin: 10px;
+	vertical-align: baseline;
+}
+#img_2{
+  height: 70%;
+  width: 70%;
+  margin: auto;
+  vertical-align: baseline;
+}
+
+
+@charset "UTF-8";
+/*font Variables*/
+/*Color Variables*/
+@import url("https://fonts.googleapis.com/css?family=Roboto:300i,400,400i,500,700,900");
+.multi_step_form {
+  background: #f6f9fb;
+  display: block;
+  overflow: hidden;
+}
+.multi_step_form .msform {
+  text-align: center;
+  position: relative;
+
+
+  margin: 0 auto;
+  background: #ffffff;
+  z-index: 1;
+}
+.multi_step_form .msform .tittle {
+  text-align: center;
+  padding-bottom: 25px;
+}
+.multi_step_form .msform .tittle h2 {
+  font: 500 24px/35px "Roboto", sans-serif;
+  color: #3f4553;
+  padding-bottom: 5px;
+}
+.multi_step_form .msform .tittle p {
+  font: 400 16px/28px "Roboto", sans-serif;
+  color: #5f6771;
+}
+.multi_step_form .msform fieldset {
+  border: 0;
+  position: relative;
+  width: 100%;
+  left: 0;
+  right: 0;
+}
+.multi_step_form .msform fieldset:not(:first-of-type) {
+  display: none;
+}
+.multi_step_form .msform fieldset h3 {
+  font: 500 18px/35px "Roboto", sans-serif;
+  color: #3f4553;
+}
+.multi_step_form .msform fieldset h6 {
+  font: 400 15px/28px "Roboto", sans-serif;
+  color: #5f6771;
+  padding-bottom: 30px;
+}
+.multi_step_form .msform fieldset .intl-tel-input {
+  display: block;
+  background: transparent;
+  border: 0;
+  box-shadow: none;
+  outline: none;
+}
+.multi_step_form .msform fieldset .intl-tel-input .flag-container .selected-flag {
+  padding: 0 20px;
+  background: transparent;
+  border: 0;
+  box-shadow: none;
+  outline: none;
+  width: 65px;
+}
+.multi_step_form .msform fieldset .intl-tel-input .flag-container .selected-flag .iti-arrow {
+  border: 0;
+}
+.multi_step_form .msform fieldset .intl-tel-input .flag-container .selected-flag .iti-arrow:after {
+  content: "1";
+  position: absolute;
+  top: 0;
+  right: 0;
+  font: normal normal normal 24px/7px Ionicons;
+  color: #5f6771;
+}
+.multi_step_form .msform fieldset #phone {
+  padding-left: 80px;
+}
+.multi_step_form .msform fieldset .form-group {
+  padding: 0 10px;
+}
+.multi_step_form .msform fieldset .fg_2,
+.multi_step_form .msform fieldset .fg_3 {
+  padding-top: 10px;
+  display: block;
+  overflow: hidden;
+}
+.multi_step_form .msform fieldset .fg_3 {
+  padding-bottom: 70px;
+}
+.multi_step_form .msform fieldset .form-control,
+.multi_step_form .msform fieldset .product_select {
+  border-radius: 3px;
+  border: 1px solid #d8e1e7;
+  height: auto;
+  color: #5f6771;
+  box-shadow: none;
+  outline: none;
+  /*width: 100%;*/
+
+}
+.multi_step_form .msform fieldset .form-control.placeholder,
+.multi_step_form .msform fieldset .product_select.placeholder {
+  color: #5f6771;
+}
+.multi_step_form .msform fieldset .form-control:-moz-placeholder,
+.multi_step_form .msform fieldset .product_select:-moz-placeholder {
+  color: #5f6771;
+}
+.multi_step_form .msform fieldset .form-control::-moz-placeholder,
+.multi_step_form .msform fieldset .product_select::-moz-placeholder {
+  color: #5f6771;
+}
+.multi_step_form .msform fieldset .form-control::-webkit-input-placeholder,
+.multi_step_form .msform fieldset .product_select::-webkit-input-placeholder {
+  color: #5f6771;
+}
+.multi_step_form .msform fieldset .form-control:hover, .multi_step_form .msform fieldset .form-control:focus,
+.multi_step_form .msform fieldset .product_select:hover,
+.multi_step_form .msform fieldset .product_select:focus {
+  border-color: #5cb85c;
+}
+.multi_step_form .msform fieldset .form-control:focus.placeholder,
+.multi_step_form .msform fieldset .product_select:focus.placeholder {
+  color: transparent;
+}
+.multi_step_form .msform fieldset .form-control:focus:-moz-placeholder,
+.multi_step_form .msform fieldset .product_select:focus:-moz-placeholder {
+  color: transparent;
+}
+.multi_step_form .msform fieldset .form-control:focus::-moz-placeholder,
+.multi_step_form .msform fieldset .product_select:focus::-moz-placeholder {
+  color: transparent;
+}
+.multi_step_form .msform fieldset .form-control:focus::-webkit-input-placeholder,
+.multi_step_form .msform fieldset .product_select:focus::-webkit-input-placeholder {
+  color: transparent;
+}
+.multi_step_form .msform fieldset .product_select:after {
+  display: none;
+}
+.multi_step_form .msform fieldset .product_select:before {
+  content: "2";
+  position: absolute;
+  top: 0;
+  right: 20px;
+  font: normal normal normal 24px/48px Ionicons;
+  color: #5f6771;
+}
+.multi_step_form .msform fieldset .product_select .list {
+  width: 100%;
+}
+.multi_step_form .msform fieldset .done_text {
+  padding-top: 40px;
+}
+.multi_step_form .msform fieldset .done_text .don_icon {
+  height: 36px;
+  width: 36px;
+  line-height: 36px;
+  font-size: 22px;
+  margin-bottom: 10px;
+  background: #5cb85c;
+  display: inline-block;
+  border-radius: 50%;
+  color: #ffffff;
+  text-align: center;
+}
+.multi_step_form .msform fieldset .done_text h6 {
+  line-height: 23px;
+}
+.multi_step_form .msform fieldset .code_group {
+  margin-bottom: 60px;
+}
+.multi_step_form .msform fieldset .code_group .form-control {
+  border: 0;
+  border-bottom: 1px solid #a1a7ac;
+  border-radius: 0;
+  display: inline-block;
+  width: 30px;
+  font-size: 30px;
+  color: #5f6771;
+  padding: 0;
+  margin-right: 7px;
+  text-align: center;
+  line-height: 1;
+}
+.multi_step_form .msform fieldset .passport {
+  margin-top: -10px;
+  padding-bottom: 30px;
+  position: relative;
+}
+.multi_step_form .msform fieldset .passport .don_icon {
+  height: 36px;
+  width: 36px;
+  line-height: 36px;
+  font-size: 22px;
+  position: absolute;
+  top: 4px;
+  right: 0;
+  background: #5cb85c;
+  display: inline-block;
+  border-radius: 50%;
+  color: #ffffff;
+  text-align: center;
+}
+.multi_step_form .msform fieldset .passport h4 {
+  font: 500 15px/23px "Roboto", sans-serif;
+  color: #5f6771;
+  padding: 0;
+}
+.multi_step_form .msform fieldset .input-group {
+  padding-bottom: 20px;
+}
+.multi_step_form .msform fieldset .input-group .custom-file {
+  width: 100%;
+  height: auto;
+}
+.multi_step_form .msform fieldset .input-group .custom-file .custom-file-label {
+
+  border-radius: 5px;
+  cursor: pointer;
+  font: 700 14px/30px "Roboto", sans-serif;
+  border: 1px solid #99a2a8;
+  text-align: center;
+  transition: all 300ms linear 0s;
+  color: #5f6771;
+}
+.multi_step_form .msform fieldset .input-group .custom-file .custom-file-label i {
+  font-size: 20px;
+  padding-right: 10px;
+}
+.multi_step_form .msform fieldset .input-group .custom-file .custom-file-label:hover, .multi_step_form .msform fieldset .input-group .custom-file .custom-file-label:focus {
+  background: #5cb85c;
+  border-color: #5cb85c;
+  color: #fff;
+}
+.multi_step_form .msform fieldset .input-group .custom-file input {
+  display: none;
+}
+.multi_step_form .msform fieldset .file_added {
+  text-align: left;
+  padding-left: 190px;
+  padding-bottom: 60px;
+}
+.multi_step_form .msform fieldset .file_added li {
+  font: 400 15px/28px "Roboto", sans-serif;
+  color: #5f6771;
+}
+.multi_step_form .msform fieldset .file_added li a {
+  color: #5cb85c;
+  font-weight: 500;
+  display: inline-block;
+  position: relative;
+  padding-left: 15px;
+}
+.multi_step_form .msform fieldset .file_added li a i {
+  font-size: 22px;
+  padding-right: 8px;
+  position: absolute;
+  left: 0;
+  transform: rotate(20deg);
+}
+.multi_step_form .msform #progressbar {
+  overflow: hidden;
+}
+.multi_step_form .msform #progressbar li {
+  list-style-type: none;
+  color: #99a2a8;
+  font-size: 9px;
+  width: calc(100% / 3);
+  float: left;
+  position: relative;
+  font: 500 13px/1 "Roboto", sans-serif;
+}
+
+.multi_step_form .msform #progressbar li:nth-child(2):before {
+  content: "2";
+}
+.multi_step_form .msform #progressbar li:nth-child(3):before {
+  content: "3";
+}
+.multi_step_form .msform #progressbar li:nth-child(4):before {
+  content: "4";
+}
+.multi_step_form .msform #progressbar li:before {
+  content: "1";
+  font: normal normal normal 30px/50px Ionicons;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  display: block;
+  background: #eaf0f4;
+  border-radius: 50%;
+  margin: 0 auto 10px auto;
+}
+.multi_step_form .msform #progressbar li:after {
+  content: "";
+  width: 100%;
+  height: 10px;
+  background: #eaf0f4;
+  position: absolute;
+  left: -50%;
+  top: 21px;
+  z-index: -1;
+}
+.multi_step_form .msform #progressbar li:last-child:after {
+  width: 150%;
+}
+.multi_step_form .msform #progressbar li.active {
+  color: #5cb85c;
+}
+.multi_step_form .msform #progressbar li.active:before, .multi_step_form .msform #progressbar li.active:after {
+  background: #5cb85c;
+  color: white;
+}
+
+.multi_step_form .msform .progress-test li {
+  width: calc(100% / 4) !important
+
+}
+
+
+
+
+
+
+
+.multi_step_form .msform .action-button {
+  background: #5cb85c;
+  color: white;
+  border: 0 none;
+  border-radius: 5px;
+  cursor: pointer;
+  min-width: 130px;
+  font: 700 14px/40px "Roboto", sans-serif;
+  border: 1px solid #5cb85c;
+  margin: 0 5px;
+  text-transform: uppercase;
+  display: inline-block;
+}
+.multi_step_form .msform .action-button:hover, .multi_step_form .msform .action-button:focus {
+  background: #405867;
+  border-color: #405867;
+}
+.multi_step_form .msform .previous_button {
+  background: transparent;
+  color: #99a2a8;
+  border-color: #99a2a8;
+}
+.multi_step_form .msform .previous_button:hover, .multi_step_form .msform .previous_button:focus {
+  background: #405867;
+  border-color: #405867;
+  color: #fff;
+}
+.modal .modal-xl{
+  width: 9s0%  !important;
+  max-width : 95%  !important;
+}
+
+.error2{
+   -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  -moz-box-shadow: 0 0 0 transparent;
+  -webkit-box-shadow: 0 0 0 transparent;
+  box-shadow: 0 0 0 transparent;
+  position: absolute;
+     left: 288px;
+    margin-top: -91px;
+  padding: 0 10px;
+  z-index: 999;
+  height: 39px;
+  display: block;
+  color: #ffffff;
+  background: #e62163;
+  border: 0;
+  font: 14px Corbel, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", "Bitstream Vera Sans", "Liberation Sans", Verdana, "Verdana Ref", sans-serif;
+  line-height: 39px;
+  white-space: nowrap;
+
+}
+
+
+
+
+.error2:before{
+    width: 0;
+  height: 0;
+  left: -8px;
+  top: 14px;
+  content: '';
+  position: absolute;
+  border-top: 6px solid transparent;
+  border-right: 8px solid #e62163;
+}
+
+
+
+
+
+.login-form {
+    padding: 20px;
+    background: #f2f2f2;
+    border-radius: 10px 10px;
+    margin: 0;
+
+}
+.end-step{
+   padding: 20px;
+    background: white;
+    border-radius: 10px 10px;
+    margin: 0;
+
+}
+.list-login {
+    text-align: center;
+}
+
+.shop.login .login-form h2 {
+  position:relative;
+  font-size: 35px;
+  color: #333;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-bottom: 12px;
+  text-align: center;
+}
+.shop.login .login-form h2:before{
+  position:absolute;
+  content:"";
+  left:50%;
+  bottom:0;
+  height:2px;
+  width:50px;
+  background:#F7941D;
+  margin-left:-25px;
+}
+.shop.login .login-form p {
+  font-size: 14px;
+  color: #333;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom:50px;
+}
+.shop.login  {
+  margin-top: 30px;
+}
+
+
+.shop.login  .form-group {
+      text-align: justify;
+    margin-bottom: 22px;
+    line-height: normal;
+}
+.shop.login  .form-group input {
+  width: 100%;
+  height: 45px;
+  line-height: 50px;
+  padding: 0 20px;
+  border-radius: 5px;
+  color:#333 !important;
+  border: none;
+  background:#F6F7FB;
+}
+.shop.login  .input-custom {
+      margin-bottom: 10px;
+    padding: 5px 15px;
+  height: 45px;
+  line-height: 50px;
+ 
+  border-radius: 5px;
+  color:#333 !important;
+  border: none;
+  background:#F6F7FB;
+}
+.shop.login  .form-control textarea {
+
+  padding: 0 20px;
+  border-radius: 5px;
+}
+.shop.login  .form-group label {
+  color: #333;
+  position: relative;
+  margin-left: 10px;
+}
+.shop.login  .form-row label {
+  color: #333;
+  font-size: large;
+}
+.shop.login  .form-group label span {
+  color: #ff2c18;
+  display: inline-block;
+  position: absolute;
+  right: -12px;
+  top: 4px;
+  font-size: 16px;
+}
+.shop.login  .form-row label span {
+  color: #ff2c18;
+  display: inline-block;
+  right: -12px;
+  top: 4px;
+  font-size: 16px;
+}
+
+.shop.login .form-group input:hover{
+  border-color:#1308a3;
+  color:#1308a3;
+}
+.shop.login  .form-group.login-btn {
+  margin: 0;
+  text-align: center;
+}
+.shop.login  button {
+  border: none;
+}
+.shop.login  .btnn {
+  display: inline-block;
+  margin-right: 10px;
+  height: 46px;
+  color: #fff;
+  line-height: 20px;
+}
+.shop.login  .btnn:hover{
+  background:#F7941D;
+  color:#fff;
+}
+.shop.login .login-form .checkbox {
+  text-align: left;
+  margin: 0;
+  margin-top: 20px;
+  display:inline-block;
+}
+.shop.login .login-form .checkbox label {
+  font-size: 14px;
+  font-weight: 400;
+  color: #333;
+  position: relative;
+  padding-left: 20px;
+}
+.shop.login .login-form .checkbox label:hover{
+  cursor:pointer;
+}
+.shop.login .login-form .checkbox label input{
+  display:none;
+}
+.shop.login .login-form .checkbox label::before {
+  position: absolute;
+  content: "";
+  left: 0;
+  top: 6px;
+  width: 12px;
+  height: 12px;
+  border: 1px solid #555555;
+  border-radius: 0px;
+}
+.shop.login .login-form .checkbox label::after {
+  position: absolute;
+  content: "\f00c";
+  font-family: "Fontawesome";
+  width: 12px;
+  height: 12px;
+  line-height: 23px;
+  left: 2px;
+  top: 0px;
+  opacity: 0;
+  visibility: hidden;
+  transform: scale(0);
+  -webkit-transition: all 0.4s ease;
+  -moz-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+  display: block;
+  font-size: 9px;
+}
+.shop.login .login-form .checkbox label.checked::after{
+  opacity:1;
+  visibility:visible;
+  transform:scale(1);
+}
+.shop.login .login-form .lost-pass{
+  display:inline-block;
+  margin-left:25px;
+  color:#333;
+  font-size:14px;
+  font-weight:400;
+}
+.shop.login .login-form .lost-pass:hover{
+  color:#F7941D;
+}
+.custom-control-input-danger:checked~.custom-control-label::before {
+    border-color: #dc3545;
+    background-color: #dc3545;
+}
+.custom-checkbox .custom-control-input:checked~.custom-control-label::after {
+    background-image: url(data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3E%3Cpath fill='%23fff' d='M6.564.75l-3.59 3.612-1.538-1.55L0 4.26 2.974 7.25 8 2.193z'/%3E%3C/svg%3E);
+}
+/*======================================
+  End Login CSS*/
